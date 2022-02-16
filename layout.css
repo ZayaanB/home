@@ -1,0 +1,297 @@
+/*Stylesheet made by Zayaan*/
+
+h1{
+    font-size: 8ex;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 5ex;
+}
+
+h3
+{
+    border-bottom: 1px;
+    border-left:1px;
+    border-right:1px;
+    border-top:1px;
+    border-style:solid;
+    margin-bottom: none;   
+}
+
+h4
+{
+    font-size: 2.5ex;
+}
+
+p
+{
+    font-size: 2ex;
+    line-height: 3.5ex;
+    background-color: rgb(255, 205, 140);
+    padding:5px;
+    text-indent: 5ex;
+    padding:1%;
+}
+
+img
+{
+    border-bottom: 4px;
+    border-top: 4px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color:rgb(255, 205, 140);
+}
+
+li
+{
+    margin-bottom:2%;
+    margin-top:2%;
+}
+
+th
+{
+    font-size: large;
+    border:1px;
+    border-style:solid;
+    background-color: rgb(255, 182, 87);
+}
+
+td
+{
+    border:1px;
+    border-style:solid;
+    margin-top: 4px;
+    margin-bottom:4px;
+    padding: 5px;
+    line-height: 3ex;
+}
+
+#banner
+{
+    height: 415px;
+    background-image:url(../Images/website_banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#top
+{
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: skyblue;
+    color: black;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-right: 1px;
+    border-left: 1px;
+    border-style: solid;
+    font-family: 'Times New Roman', Times, monospace;
+}
+
+#table_of_contents
+{
+    margin-right: 6%;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-left: 2px;
+    border-right: 2px;
+    font-size:large;
+}
+
+#internal_navigation_and_image
+{
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    background-color: rgb(255, 182, 87);
+}
+
+#person_playing_guitar
+{
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#navigation
+{
+    margin-bottom: 20px;
+    background-color: rgb(255, 182, 87);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: larger;
+    text-align: center;
+    display:block;
+}
+
+#table_of_contents_heading
+{
+    border: none;
+}
+
+#components
+{
+    border: 1px;
+    border:1px;
+    border-style:solid;
+    background-color: rgb(255, 205, 140);
+}
+
+#components_of_a_guitar_table
+{
+    border:2px;
+    border-style:solid;
+}
+
+#Guitar_parts
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+#accessories
+{
+    margin-top: 2%;
+    margin-left:1%;
+    margin-right:1%;
+}
+
+#horizontal_rule
+{
+    border-style:solid;
+    margin-bottom: 10px;
+}
+
+#bottom
+{
+    background-color: rgb(255, 182, 87);
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+.center
+{
+    text-align:center;    
+}
+
+.center_image
+{
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:1%;
+    display: block;
+}
+
+.type_of_guitar
+{
+    border: 2px, 1px, 2px, 1px;
+    border-style: solid;
+    background-color: rgb(255, 205, 140);
+
+}
+
+.content
+{
+    border:1px;
+    border-style: solid;
+    margin-bottom: 2%;
+    margin-top:2%;
+    background-color: rgb(255, 205, 140);
+}
+
+.content_images
+{
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    padding-right:1%;
+}
+
+.align_text
+{
+    text-align: center;
+}
+
+.subheading
+{
+    text-align:center;
+    font-size:3ex;
+    background-color: rgb(255, 186, 95); 
+    margin:0%
+}
+
+.accessory_types
+{
+    padding:15px;
+    justify-content: center;
+    display: flex;  
+}
+
+.accessory_description
+{
+    text-align: center;
+    border:2px;
+    border-style:solid;
+    background-color:rgb(255, 205, 140);
+    margin-right:20px;
+}
+
+.accessory_image
+{
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.validator_image
+{
+    border:3px;
+    border-style: solid;
+    padding:0%;
+}
+
+.source_heading
+{
+    color:royalblue;
+}
+
+.citations
+{
+    border:1px;
+    border-style: solid;
+    margin-bottom: 2%;
+    margin-top:2%;
+    background-color: rgb(255, 205, 140);
+    line-height: 5ex;
+    list-style:none;
+}
+
+body
+{
+    background-color:peachpuff;
+    font-family: monospace, serif;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+
