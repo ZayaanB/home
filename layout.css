@@ -1,0 +1,324 @@
+/*Stylesheet made by Zayaan B.*/
+/*Style rules for heading element selectors changing size, aligning and borders*/
+h1{
+    font-size: 28pt;
+    text-align: center;
+    font-family:'Lobster'
+}
+
+h2
+{
+    font-size: 24pt;
+}
+
+h3
+{
+    border-bottom: 1px;
+    border-left:1px;
+    border-right:1px;
+    border-top:1px;
+    border-style:solid;
+    margin-bottom: 0%;
+}
+
+h4
+{
+    font-size: 16pt;
+}
+
+p
+{
+    font-size: 11pt;
+    line-height: 24pt;
+    background-color: rgb(255, 205, 140);
+    padding:10px;
+    text-indent: 5ex;
+    padding:1%;
+}
+
+img
+{
+    border-bottom: 4px;
+    border-top: 4px;
+    border-left: 3px;
+    border-right: 3px;
+    border-style: solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color:rgb(255, 205, 140);
+}
+
+li
+{
+    margin-bottom:2%;
+    margin-top:2%;
+    max-width:94%;
+}
+
+/*Adding a border to every table cell and making table heading bigger*/
+th
+{
+    font-size: 14pt;
+    border:1px;
+    border-style:solid;
+    background-color: rgb(255, 182, 87);
+}
+
+td
+{
+    border:1px;
+    border-style:solid;
+    margin-top: 4px;
+    margin-bottom:4px;
+    padding: 5px;
+    line-height: 3ex;
+    font-size:10pt;
+}
+
+/*Background image for website homepage banner*/
+#banner
+{
+    height: 370px;
+    background-image:url(Images/website_banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+/*Making the top headings of the page stand out with colours and borders*/
+#top
+{
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: skyblue;
+    color: black;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-right: 1px;
+    border-left: 1px;
+    border-style: solid;
+    font-family: 'Times New Roman', Times, monospace;
+}
+
+#table_of_contents
+{
+    margin-right: 6%;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-left: 2px;
+    border-right: 2px;
+    font-size:15pt;
+}
+
+/*Justifying and modifying display for table of contents and support image*/
+#internal_navigation_and_image
+{
+    padding-bottom: 5px;
+    padding-top:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    background-color: rgb(255, 182, 87);
+}
+
+/*Aligning */
+#person_playing_guitar
+{
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Styling navigation bar with alignment*/
+#navigation
+{
+    margin-bottom: 25px;
+    background-color: rgb(255, 182, 87);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15pt;
+    text-align: center;
+    border:1px;
+    border-style:solid;
+}
+
+#table_of_contents_heading
+{
+    border: none;
+}
+
+/*Adding a border and centering the components table*/
+#components
+{
+    border: 1px;
+    border:1px;
+    border-style:solid;
+    background-color: rgb(255, 205, 140);
+}
+
+#components_of_a_guitar_table
+{
+    border:2px;
+    border-style:solid;
+}
+
+#Guitar_parts
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+#accessories
+{
+    margin-top: 2%;
+    margin-left:1%;
+    margin-right:1%;
+}
+
+/*Makes a horizontal line*/
+#horizontal_rule
+{
+    border-style:solid;
+    margin-bottom: 10px;
+}
+
+#bottom
+{
+    background-color: rgb(255, 182, 87);
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+.center
+{
+    text-align:center;    
+}
+
+.center_image
+{
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:1%;
+    display: block;
+}
+
+/*Aligning images and adding a border to all content*/
+.content
+{
+    border:1px;
+    border-style: solid;
+    margin-bottom: 2%;
+    margin-top:2%;
+    background-color: rgb(255, 205, 140);
+}
+
+.content_images
+{
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    padding-right:1%;
+}
+
+.align_text
+{
+    text-align: center;
+}
+
+.subheading
+{
+    text-align:center;
+    font-size:3ex;
+    background-color: rgb(255, 186, 95); 
+    margin:0%
+}
+
+/*Aligning images beside content for accessories and guitar types*/
+.accessories_types
+{
+    padding:15px;
+    justify-content: center;
+    display: flex;  
+}
+
+.type_of_guitar
+{
+    justify-content: center;
+    display: flex;
+    margin-top:2%;
+    margin-bottom:1%;
+    padding-top: 0%;
+}
+
+.accessories_description
+{
+    text-align: center;
+    border:2px;
+    border-style:solid;
+    background-color:rgb(255, 205, 140);
+    margin-right:20px;
+}
+
+.types_of_guitars_descriptions
+{
+    text-align: center;
+    border:2px;
+    border-style:solid;
+    margin-right:20px;
+    background-color: rgb(255, 205, 140);
+}
+
+.accessories_images
+{
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.validator_image
+{
+    border:3px;
+    border-style: solid;
+    padding:0%;
+}
+
+.source_heading
+{
+    color:royalblue;
+}
+
+/*Removes bullet points from list*/
+.citations
+{
+    border:1px;
+    border-style: solid;
+    margin-bottom: 2%;
+    margin-top:2%;
+    padding: 2%;
+    background-color: rgb(255, 205, 140);
+    line-height: 5ex;
+    list-style:none;
+    max-width: 94%;
+}
+
+/*Website background colour and font*/
+body 
+{
+    background-color:peachpuff !important;
+    font-family: monospace, serif;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
